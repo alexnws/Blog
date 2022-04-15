@@ -67,20 +67,13 @@ const RoleModifForm = ({ userId }) => {
                     </option>
                   ))}
                 </Field>
-                <button
-                  className="bg-green-500 text-white text-lg font-bold border px-4 py-2 rounded hover:bg-green-300 focus:outline focus:outline-3 focus:outline-green-300  transition-all hover:scale-105"
-                  type="submit"
-                >
-                  Modify role
-                </button>
+                <button type="submit">Modify role</button>
               </Form>
             )}
           </Formik>
         </div>
         <Link href="/users">
-          <a className="bg-blue-500 text-white text-lg font-bold border px-4 py-2 rounded hover:bg-blue-300 focus:outline focus:outline-3 focus:outline-blue-300 transition-all hover:scale-105">
-            Users list
-          </a>
+          <a>Users list</a>
         </Link>
       </div>
     </section>
